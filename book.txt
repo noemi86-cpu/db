@@ -1,0 +1,13 @@
+name: books
+
+Column    Type
+
+id         number
+autore     string
+title      string
+casa edit  string
+n.pag       number
+genere      string
+year        number
+lingua      string
+copie vend  number
