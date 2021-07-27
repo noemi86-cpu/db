@@ -9,7 +9,7 @@ Casa produttrice            VARCHAR(50)              NOT NULL
 Colore                      VARCHAR(20)              NOT NULL
 Full-optional               VARCHAR(100)             NULL
 Cambio automatico           VARCHAR(50)              NULL
-Prezzo                      MEDIUMINT UNSIGNED       NOT NULL
+Prezzo                      DECIMAL (6,2)                NOT NULL
 Immatricolazione            DATA                     NOT NULL
 Chilometraggio              MEDIUMINT UNSIGNED       NOT NULL
 Alimentazione               VARCHAR(100)             NOT NULL
