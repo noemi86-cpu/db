@@ -1,0 +1,18 @@
+name: cars
+
+Column                      Type                    Attributes                              Index
+
+id                          BIGINT  UNSIGNED         AUTO_INCREMENT, NOT NULL                PRIMARY KEY
+Marca                       VARCHAR(255)             NOT NULL
+Modello                     VARCHAR(255)             NOT NULL
+Casa produttrice            VARCHAR(255)             NOT NULL
+Colore                      VARCHAR(255)             NOT NULL
+Full-optional               VARCHAR(255)             NULL
+Cambio automatico           VARCHAR(255)             NULL
+Prezzo                      MEDIUMINT UNSIGNED       NOT NULL
+Immatricolazione            DATA                     NOT NULL
+Chilometraggio              MEDIUMINT UNSIGNED       NOT NULL
+Alimentazione               VARCHAR(255)             NOT NULL
+Paese di provenienza        VARCHAR(2)               NOT NULL
+TARGA                       VARCHAR(7)               NOT NULL, UNIQUE                         INDEX
+Descrizione                 TEXT                     NOT NULL
